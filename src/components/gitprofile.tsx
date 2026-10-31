@@ -164,11 +164,11 @@ const GitProfileContent = ({
       const data = response.data;
 
       setProfile({
-        avatar: ${import.meta.env.BASE_URL}avatar.png`,
-        name: data.name || 'Livia Welch',
-        bio: data.bio || 'Tech & Art Portfolio',
-        location: data.location || '',
-        company: data.company || '',
+      avatar: `${import.meta.env.BASE_URL}avatar.png`,
+      name: 'Livia Welch',
+      bio: 'Tech & art portfolio',
+      location: data.location || '',
+      company: data.company || '',
       });
 
       if (!sanitizedConfig.projects.github.display) {
