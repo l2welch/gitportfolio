@@ -164,9 +164,9 @@ const GitProfileContent = ({
       const data = response.data;
 
       setProfile({
-        avatar: data.avatar_url,
-        name: data.name || ' ',
-        bio: data.bio || '',
+        avatar: ${import.meta.env.BASE_URL}avatar.png`,
+        name: data.name || 'Livia Welch',
+        bio: data.bio || 'Tech & Art Portfolio',
         location: data.location || '',
         company: data.company || '',
       });
