@@ -164,7 +164,7 @@ const GitProfileContent = ({
       const data = response.data;
 
       setProfile({
-      avatar: `${import.meta.env.BASE_URL}LivHeadshotSunset.jpg`,
+      avatar: `${import.meta.env.BASE_URL}Screenshot 2026-01-28 211831.png`,
       name: 'Livia Welch',
       bio: 'Tech & art portfolio',
       location: data.location || '',
